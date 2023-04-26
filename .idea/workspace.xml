@@ -5,14 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eb0bae9d-7745-432d-acac-497f28c31dd5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/little-lemon/src/assets/Logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/little-lemon/src/components/Footer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/little-lemon/src/components/Header.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/little-lemon/src/components/Main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/little-lemon/src/components/Nav.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/little-lemon/src/components/assets/Logo .svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/little-lemon/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/little-lemon/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/little-lemon/src/assets/Logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/little-lemon/src/components/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/little-lemon/src/components/Footer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/little-lemon/src/components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/little-lemon/src/components/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/little-lemon/src/components/Nav.js" beforeDir="false" afterPath="$PROJECT_DIR$/little-lemon/src/components/Nav.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/little-lemon/src/components/assets/Logo .svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/little-lemon/src/components/assets/Logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/little-lemon/src/components/assets/Logo.svg" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +23,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -42,6 +43,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "Main",
+    "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -60,6 +62,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/little-lemon/src/components/assets" />
       <recent name="$PROJECT_DIR$/little-lemon/src/assets" />
     </key>
   </component>
@@ -72,7 +75,7 @@
       <option name="presentableId" value="Default" />
       <updated>1682468431560</updated>
       <workItem from="1682468433919" duration="129000" />
-      <workItem from="1682468854839" duration="1655000" />
+      <workItem from="1682468854839" duration="5399000" />
     </task>
     <servers />
   </component>
