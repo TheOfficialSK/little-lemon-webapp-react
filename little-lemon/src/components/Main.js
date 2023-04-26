@@ -1,9 +1,9 @@
-import Homepage from "./Homepage";
+import CallToAction from "./CallToAction";
 
 function Main() {
     return (
         <main>
-        <Homepage />
+        <CallToAction />
         </main>
     )
 }
