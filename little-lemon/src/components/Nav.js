@@ -1,15 +1,35 @@
-import "./styles.css";
+import "./Nav.css";
 function Nav(props) {
     return (
         <nav>
             <ul className={props.section}>
                 <p><strong>{props.title}</strong></p>
-                {props.links.map((link) => {
-                    return (
-                        <li className={"nav-item"}>
-                            <a href={link[1]}>{link[0]}</a>
-                        </li>
-                    )
+                {props.links.map((item) => {
+                    function handleClick(anchor) {
+                        return undefined;
+                        //TODO
+                    }
+                    if (props.section === "top-bar") {
+                        return (
+                            <li className={"nav-item"}>
+                                <a href={`/#${item.anchor}`}
+                                   onClick={handleClick(item.anchor)}
+                                   key={item.anchor}
+                                   className={"nav-link"}
+                                >{item.label}</a>
+                            </li>
+                        )
+                    } else {
+                        return (
+                            <li className={"nav-item"}>
+                                <a href={item.href}
+                                   onClick={handleClick(item.anchor)}
+                                   key={item.anchor}
+                                   className={"nav-link"}
+                                >{item.label}</a>
+                            </li>
+                        )
+                    }
                 } )
                 }
 

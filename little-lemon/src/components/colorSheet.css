@@ -1,0 +1,59 @@
+/*COLOR VARIABLES*/
+:root {
+    --black: #000000;
+    --white: #ffffff;
+    --primary-yellow: #f4ce14;
+    --primary-green: #495e57;
+    --accent-light-grey: #EDEFEE;
+    --accent-dark-grey: #333333;
+    --accent-salmon: #fbdabb;
+    --accent-rose: #ee9972;
+}
+/*
+h1 {
+    font-family: 'Markazi Text', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 96px;
+    color: var(--white);
+}
+h2 {
+    font-family: 'Karla', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 46px;
+    line-height: 54px;
+}
+h3 {
+    font-family: 'Markazi Text', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+    color: var(--white);
+}
+p, .card-text {
+    font-family: 'Karla', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+}
+p, .outer-body {
+    font-family: 'Karla', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    color: var(--white);
+    width: 500px;
+}
+p, .card-title {
+    font-family: 'Karla', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+}
+*/

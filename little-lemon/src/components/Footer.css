@@ -1,0 +1,21 @@
+footer {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    background-color: var(--accent-dark-grey);
+    text-align: center;
+    color: var(--white);
+    font-size: 14px;
+    font-weight: 300;
+    width: 100%;
+    gap: 40px;
+}
+@media (max-width: 768px) {
+    footer {
+
+        background-color: var(--accent-dark-grey);
+        flex-direction: column;
+        gap: unset;
+
+    }
+}
