@@ -6,13 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="eb0bae9d-7745-432d-acac-497f28c31dd5" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/little-lemon/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/little-lemon/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/little-lemon/src/assets/Logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/little-lemon/src/components/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/little-lemon/src/components/Footer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/little-lemon/src/components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/little-lemon/src/components/Header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/little-lemon/src/components/Nav.js" beforeDir="false" afterPath="$PROJECT_DIR$/little-lemon/src/components/Nav.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/little-lemon/src/components/assets/Logo .svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/little-lemon/src/components/assets/Logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/little-lemon/src/components/assets/Logo.svg" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +42,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "settings.sync",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -67,6 +61,9 @@
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>$USER_HOME$/.subversion</configuration>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="eb0bae9d-7745-432d-acac-497f28c31dd5" name="Changes" comment="" />
@@ -75,7 +72,7 @@
       <option name="presentableId" value="Default" />
       <updated>1682468431560</updated>
       <workItem from="1682468433919" duration="129000" />
-      <workItem from="1682468854839" duration="5399000" />
+      <workItem from="1682468854839" duration="5860000" />
     </task>
     <servers />
   </component>
