@@ -1,10 +1,11 @@
 import logo from './assets/Logo.svg';
 import Nav from "./Nav";
+import './Header.css';
 function Header() {
     return (
         <header className={"header-section"}>
             <img className={"header-logo"}src={logo} alt="Little Lemon Logo" width={"200px"} height={"96px"}/>
-            <Nav links={
+            <Nav section={"top-bar"} links={
                 [
                     ["Home", "https://www.google.com/"],
                     ["About", "https://www.google.com/"],

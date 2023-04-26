@@ -5,7 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eb0bae9d-7745-432d-acac-497f28c31dd5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/little-lemon/src/components/Footer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/little-lemon/src/components/Header.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/little-lemon/src/components/Nav.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/little-lemon/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/little-lemon/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/little-lemon/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/little-lemon/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/little-lemon/src/components/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/little-lemon/src/components/Footer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/little-lemon/src/components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/little-lemon/src/components/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/little-lemon/src/components/Nav.js" beforeDir="false" afterPath="$PROJECT_DIR$/little-lemon/src/components/Nav.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,21 +39,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "Main",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "settings.sync",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;Main&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;settings.sync&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="ReactDesignerToolWindowState">
     <option name="myId2Visible">
       <map>
@@ -73,6 +81,7 @@
       <updated>1682468431560</updated>
       <workItem from="1682468433919" duration="129000" />
       <workItem from="1682468854839" duration="5912000" />
+      <workItem from="1682523382261" duration="3704000" />
     </task>
     <servers />
   </component>

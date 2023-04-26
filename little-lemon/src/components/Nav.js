@@ -1,16 +1,18 @@
-
+import "./Nav.css";
 function Nav(props) {
     return (
         <nav>
-            <ul>
+            <ul className={props.section}>
+                <p><strong>{props.title}</strong></p>
                 {props.links.map((link) => {
                     return (
-                        <li>
+                        <li className={"nav-item"}>
                             <a href={link[1]}>{link[0]}</a>
                         </li>
                     )
                 } )
                 }
+
             </ul>
         </nav>
     )

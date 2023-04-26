@@ -1,12 +1,11 @@
 import logo from "./assets/Logo.svg";
 import Nav from "./Nav";
-
+import "./Footer.css";
 function Footer() {
     return (
         <footer>
             <img className={"header-logo"}src={logo} alt="Little Lemon Logo" width={"200px"} height={"96px"}/>
-            <p>Doormat navigation</p>
-            <Nav links ={
+            <Nav section={"bottom-bar"} title={"Doormat Navigation"} links ={
                 [
                     ["Home", "https://www.google.com/"],
                     ["About", "https://www.google.com/"],
@@ -16,19 +15,17 @@ function Footer() {
                     ["Login", "https://www.reddit.com/"]
                 ]
             } />
-            <p>Contact</p>
-            <Nav links ={
+            <Nav section={"bottom-bar"} title={"Contact"} links ={
                 [
                     ["Address", "https://www.google.com/"],
-                    ["Phone", "https://www.google.com/"],
+                    ["Phone number", "https://www.google.com/"],
                     ["email", "https://www.google.com/"]
                 ]
             } />
-            <p>Social Media</p>
-            <Nav links ={
+            <Nav section={"bottom-bar"} title={"Social Media"} links ={
                 [
                     ["Address", "https://www.google.com/"],
-                    ["Phone", "https://www.google.com/"],
+                    ["Phone number", "https://www.google.com/"],
                     ["email", "https://www.google.com/"]
                 ]
             } />

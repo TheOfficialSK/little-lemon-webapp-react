@@ -13,7 +13,7 @@ function App() {
             <meta name="og:description" content="Little Lemon is an Italian resturaunt that serves famous italian dishes with an original twist."/>
             <meta name="og:image" content="./assets/Logo.svg"/>
         </head>
-      <Header />
+      <Header className={"header"}/>
       <Main />
       <Footer />
     </>
