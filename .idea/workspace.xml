@@ -5,15 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eb0bae9d-7745-432d-acac-497f28c31dd5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/little-lemon/src/assets/Logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/little-lemon/src/components/Footer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/little-lemon/src/components/Header.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/little-lemon/src/components/Main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/little-lemon/src/components/Nav.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/little-lemon/src/components/assets/Logo .svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/little-lemon/package-lock.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/little-lemon/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/little-lemon/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/little-lemon/src/logo.svg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -47,6 +58,11 @@
       </map>
     </option>
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/little-lemon/src/assets" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -56,7 +72,7 @@
       <option name="presentableId" value="Default" />
       <updated>1682468431560</updated>
       <workItem from="1682468433919" duration="129000" />
-      <workItem from="1682468854839" duration="539000" />
+      <workItem from="1682468854839" duration="1655000" />
     </task>
     <servers />
   </component>
