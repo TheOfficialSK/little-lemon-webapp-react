@@ -5,15 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eb0bae9d-7745-432d-acac-497f28c31dd5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/little-lemon/src/components/assets/occasion.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/little-lemon/src/components/styles/BookingPage.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/little-lemon/src/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/little-lemon/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/little-lemon/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/little-lemon/src/components/BookingForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/little-lemon/src/components/BookingForm.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/little-lemon/src/components/BookingPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/little-lemon/src/components/BookingPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/little-lemon/src/components/Main.js" beforeDir="false" afterPath="$PROJECT_DIR$/little-lemon/src/components/Main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/little-lemon/src/components/Specials.js" beforeDir="false" afterPath="$PROJECT_DIR$/little-lemon/src/components/styles/BookingForm.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/little-lemon/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/little-lemon/src/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,7 +94,7 @@
       <updated>1682468431560</updated>
       <workItem from="1682468433919" duration="129000" />
       <workItem from="1682468854839" duration="5912000" />
-      <workItem from="1682523382261" duration="34363000" />
+      <workItem from="1682523382261" duration="34612000" />
     </task>
     <servers />
   </component>
