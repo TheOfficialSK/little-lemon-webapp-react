@@ -1,4 +1,4 @@
-import "./Nav.css";
+import "./styles/Nav.css";
 function Nav(props) {
     return (
         <nav>

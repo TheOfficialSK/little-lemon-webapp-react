@@ -1,6 +1,6 @@
 import homepic from "./assets/homepage.png";
 import React from "react";
-import './CallToAction.css';
+import './styles/CallToAction.css';
 
 function CallToAction() {
     return (

@@ -1,6 +1,6 @@
 import logo from './assets/Logo.svg';
 import Nav from "./Nav";
-import "./Header.css";
+import "./styles/Header.css";
 function Header() {
     return (
         <header className={"header-section"}>

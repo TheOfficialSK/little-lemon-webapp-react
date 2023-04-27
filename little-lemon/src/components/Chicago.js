@@ -1,6 +1,6 @@
 import homepic from "./assets/homepage.png";
 import React from "react";
-import './Chicago.css';
+import './styles/Chicago.css';
 import mario from "./assets/mario.png";
 import founder2 from "./assets/founder2.png";
 function Chicago() {

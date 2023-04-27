@@ -1,4 +1,4 @@
-import './CustomersSay.css';
+import './styles/CustomersSay.css';
 import * as PropTypes from "prop-types";
 import edward from './assets/edward.png';
 import edwardsFood from './assets/edwards-image.png';

@@ -1,4 +1,4 @@
-import "./Homepage.css";
+import "./styles/Homepage.css";
 import greekSalad from "./assets/greek-salad.png";
 import bruschetta from "./assets/bruschetta.png";
 import lemonDessert from "./assets/lemon-dessert.png";
