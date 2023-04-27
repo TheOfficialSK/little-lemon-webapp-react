@@ -1,28 +1,60 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
+import { fetchAPI, submitAPI } from '../api.js';
 import './styles/BookingForm.css';
 
-function BookingForm({ formData, onFormChange, availableTimes, dispatchAvailableTimes }) {
-    const handleSubmit = (event) => {
-        formData.date = new Date();
-        event.preventDefault();
-        console.log('Form submitted:', formData);
+function BookingForm({ formData, onFormChange }) {
+    const today = new Date();
+    const yyyy = today.getFullYear();
+    let mm = today.getMonth() + 1; // Months start at 0!
+    let dd = today.getDate();
+
+    if (dd < 10) dd = '0' + dd;
+    if (mm < 10) mm = '0' + mm;
+
+    const formattedToday = yyyy + '/' + mm + '/' + dd;
+    formData.date = formattedToday;
+    const [availableTimes, setAvailableTimes] = useState([]);
+
+
+    const updateTimes = async (selectedDate) => {
+        const times = await fetchAPI(selectedDate);
+        setAvailableTimes(times);
     };
 
+    useEffect(() => {
+        updateTimes(formData.date).then(r => console.log(r));
+    }, []);
+
+    const handleSubmit = async (event) => {
+        event.preventDefault();
+        console.log('Form submitted:', formData);
+        const success = submitAPI({
+            ...formData,
+            date: new Date(`${formData.date}T${formData.time}`),
+        });
+        if (success) {
+            console.log('Booking submitted successfully');
+
+            // Handle successful booking submission
+        } else {
+            console.error('Booking submission failed');
+            // Handle failed booking submission
+        }
+    };
 
     const handleChange = (event) => {
         const target = event.target;
         const name = target.id;
         const value = target.type === 'date' ? target.value : target.value;
 
-
         onFormChange({
             ...formData,
             [name]: value,
         });
 
-        // Dispatch the state change when the date form field is changed
         if (event.target.id === 'res-date') {
-            dispatchAvailableTimes(event.target.value);
+            const selectedDate = new Date(event.target.value);
+            updateTimes(selectedDate);
         }
     };
 
@@ -34,7 +66,7 @@ function BookingForm({ formData, onFormChange, availableTimes, dispatchAvailable
     };
 
     return (
-        <form onSubmit={handleSubmit} style={{gap: "20px" }}>
+        <form onSubmit={handleSubmit} style={{ gap: '20px' }}>
             <label htmlFor="res-date">Choose date</label>
             <input
                 type="date"
@@ -44,9 +76,10 @@ function BookingForm({ formData, onFormChange, availableTimes, dispatchAvailable
             />
 
             <label>Choose time</label>
-            <div style={{ display: "flex", justifyContent: "space-between" }}>
+            <div style={{ display: 'flex', justifyContent: 'space-between' }}>
                 {availableTimes.map((availableTime) => (
-                    <button className={"time"}
+                    <button
+                        className="time"
                         key={availableTime}
                         type="button"
                         onClick={() => handleTimeClick(availableTime)}
@@ -60,7 +93,8 @@ function BookingForm({ formData, onFormChange, availableTimes, dispatchAvailable
                 ))}
             </div>
             <label htmlFor="guests">Number of guests</label>
-            <input className={"slider"}
+            <input
+                className="slider"
                 type="range"
                 min="1"
                 max="10"
@@ -69,16 +103,18 @@ function BookingForm({ formData, onFormChange, availableTimes, dispatchAvailable
                 value={formData.guests}
                 onChange={handleChange}
             />
-            <p className={"guests"}>{formData.guests} guests</p>
+            <p className="guests">{formData.guests} guests</p>
             <label htmlFor="occasion">Occasion</label>
             <select
                 id="occasion"
                 value={formData.occasion}
                 onChange={handleChange}
             >
-                <option value="occasion" disabled>Select an occasion</option>
+                <option value="occasion" disabled>
+                    Select an occasion
+                </option>
                 <option value="Birthday">Birthday</option>
-                <option value={"Engagement"}>Engagement</option>
+                <option value="Engagement">Engagement</option>
                 <option value="Anniversary">Anniversary</option>
             </select>
             <input type="submit" value="Make Your reservation" />

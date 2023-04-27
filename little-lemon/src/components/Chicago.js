@@ -1,4 +1,3 @@
-import homepic from "./assets/homepage.png";
 import React from "react";
 import './styles/Chicago.css';
 import mario from "./assets/mario.png";

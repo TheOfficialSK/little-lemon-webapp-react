@@ -4,23 +4,25 @@ import CustomersSay from "./CustomersSay";
 import Homepage from "./Homepage";
 import Chicago from "./Chicago";
 import BookingPage from "./BookingPage";
+import {fetchAPI, submitAPI} from '../api.js';
+import ConfirmedBooking from "./ConfirmedBooking";
 
 function Main() {
     const [formData, setFormData] = useState({
         date: '',
         time: '',
         guests: 1,
-        occasion: 'occasion'
+        occasion: ''
     });
 
     const updateTimes = (state, action) => {
-        // Return the same available times regardless of the date for now
-        return state;
+        fetchAPI(state.date).then((times) => {
+            return times;
+        })
     };
 
-    const initializeTimes = () => [
-        '17:00', '18:00', '19:00', '20:00', '21:00', '22:00'
-    ];
+    const today = fetchAPI(new Date());
+    const initializeTimes = () => [...today];
 
     const [availableTimes, dispatchAvailableTimes] = useReducer(updateTimes, [], initializeTimes);
 
@@ -38,6 +40,7 @@ function Main() {
                 availableTimes={availableTimes}
                 dispatchAvailableTimes={dispatchAvailableTimes}
             />
+            <ConfirmedBooking />
             <CustomersSay />
             <Chicago />
         </main>
