@@ -1,24 +1,19 @@
-import React, { useState } from 'react';
+import React from 'react';
 import BookingForm from './BookingForm';
+import './styles/BookingPage.css';
 
-function BookingPage() {
-    const [date, setDate] = useState('');
-    const [time, setTime] = useState('');
-    const [guests, setGuests] = useState(1);
-    const [occasion, setOccasion] = useState('');
-
+function BookingPage({ formData, onFormChange, availableTimes, dispatchAvailableTimes }) {
     return (
-        <div id={"BookingPage"} className={"booking-page"}>
-            <BookingForm
-                date={date}
-                setDate={setDate}
-                time={time}
-                setTime={setTime}
-                guests={guests}
-                setGuests={setGuests}
-                occasion={occasion}
-                setOccasion={setOccasion}
-            />
+        <div id={"BookingPage"}>
+            <section className={"reservations"}>
+                <h1 className={"form-header"}>Make a Reservation</h1>
+                <BookingForm
+                    formData={formData}
+                    onFormChange={onFormChange}
+                    availableTimes={availableTimes}
+                    dispatchAvailableTimes={dispatchAvailableTimes}
+                />
+            </section>
         </div>
     );
 }

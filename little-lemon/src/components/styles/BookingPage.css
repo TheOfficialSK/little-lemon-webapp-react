@@ -1,0 +1,11 @@
+.form-header {
+    padding-bottom: 100px;
+}
+.reservations {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--primary-green);
+    padding: 0 0 200px;
+}

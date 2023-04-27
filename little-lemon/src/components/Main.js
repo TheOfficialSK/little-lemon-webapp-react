@@ -3,14 +3,14 @@ import CallToAction from "./CallToAction";
 import CustomersSay from "./CustomersSay";
 import Homepage from "./Homepage";
 import Chicago from "./Chicago";
-import BookingForm from "./BookingForm";
+import BookingPage from "./BookingPage";
 
 function Main() {
     const [formData, setFormData] = useState({
         date: '',
         time: '',
         guests: 1,
-        occasion: ''
+        occasion: 'occasion'
     });
 
     const updateTimes = (state, action) => {
@@ -32,7 +32,7 @@ function Main() {
         <main>
             <CallToAction />
             <Homepage />
-            <BookingForm
+            <BookingPage
                 formData={formData}
                 onFormChange={onFormChange}
                 availableTimes={availableTimes}
