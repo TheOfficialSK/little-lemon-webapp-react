@@ -7,12 +7,12 @@ function Header() {
             <img className={"header-logo"}src={logo} alt="Little Lemon Logo" width={"200px"} height={"96px"}/>
             <Nav section={"top-bar"} links={
                 [
-                    {anchor: "HomePage", label: "Home"},
+                    {anchor: "CallToAction", label: "Home"},
                     {anchor: "Chicago", label: "About"},
                     {anchor: "Specials", label: "Menu"},
                     {anchor: "BookingPage", label: "Reservations"},
-                    {anchor: "??", label: "Order Online"},
-                    {anchor: "??", label: "Login"}
+                    {anchor: "Online", label: "Order Online"},
+                    {anchor: "Onlinetwo", label: "Login"}
                 ]
             } />
         </header>

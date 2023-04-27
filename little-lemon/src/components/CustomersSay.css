@@ -1,0 +1,79 @@
+.customers-say {
+    background-color: var(--primary-yellow);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.testimonials {
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+.reviews {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+.review-block {
+    background-color: var(--white);
+    border-radius: 16px;
+    margin-bottom: 300px;
+}
+.reviewer {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+.pfp {
+    margin: 10px;
+    height: 50px;
+}
+.name-and-rating {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+.foodPic {
+    height: 80px;
+}
+.review-content {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin: 10px;
+}
+.review-text {
+    width: 100px;
+    margin-top: 0;
+    margin-left: 10px;
+    margin-bottom: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: 'Karla', sans-serif;
+}
+.rating-text {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0;
+}
+.name {
+    margin-top: 15px;
+    margin-bottom:0;
+    padding-bottom:0;
+}
+.star {
+    height: 15px;
+    padding: 1px;
+}
+.rating-with-stars {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    gap: 0;
+    margin: 0;
+}

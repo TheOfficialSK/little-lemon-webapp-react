@@ -11,7 +11,7 @@
     z-index: 1;
 }
 
-.top-bar .nav-item {
+.nav-item-top {
     display: flex;
     align-items: center;
     cursor: pointer;
@@ -24,15 +24,14 @@
         height: unset;
         gap: 10px;
     }
-    .top-bar .nav-item {
+.nav-item-top {
         padding: 0;
     }
 }
-.bottom-bar .nav-item {
+.nav-item-bottom {
     display: flex;
-    align-items: flex-start;
     cursor: pointer;
-    padding: 0 35px 0;
+    align-items: flex-start;
 }
 
 a {
@@ -51,4 +50,7 @@ p {
     color: inherit;
     padding-bottom: 8px;
     align-self: flex-start;
+}
+li.bottom-bar {
+    padding-bottom: 8px;
 }

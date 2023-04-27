@@ -5,10 +5,35 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eb0bae9d-7745-432d-acac-497f28c31dd5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/little-lemon/src/components/Chicago.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/little-lemon/src/components/CustomersSay.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/little-lemon/src/components/Homepage.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/little-lemon/src/components/assets/brad.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/little-lemon/src/components/assets/brads-image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/little-lemon/src/components/assets/bruschetta.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/little-lemon/src/components/assets/deliver.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/little-lemon/src/components/assets/edward.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/little-lemon/src/components/assets/edwards-image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/little-lemon/src/components/assets/founder2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/little-lemon/src/components/assets/greek-salad.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/little-lemon/src/components/assets/lemon-dessert.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/little-lemon/src/components/assets/mario.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/little-lemon/src/components/assets/natalie.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/little-lemon/src/components/assets/natalies-image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/little-lemon/src/components/assets/robert.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/little-lemon/src/components/assets/roberts-image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/little-lemon/src/components/assets/star.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/little-lemon/src/components/CallToAction.js" beforeDir="false" afterPath="$PROJECT_DIR$/little-lemon/src/components/CallToAction.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/little-lemon/src/components/Chicago.js" beforeDir="false" afterPath="$PROJECT_DIR$/little-lemon/src/components/Chicago.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/little-lemon/src/components/CustomersSay.js" beforeDir="false" afterPath="$PROJECT_DIR$/little-lemon/src/components/CustomersSay.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/little-lemon/src/components/Footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/little-lemon/src/components/Footer.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/little-lemon/src/components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/little-lemon/src/components/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/little-lemon/src/components/HomePage.css" beforeDir="false" afterPath="$PROJECT_DIR$/little-lemon/src/components/CallToAction.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/little-lemon/src/components/Homepage.js" beforeDir="false" afterPath="$PROJECT_DIR$/little-lemon/src/components/Homepage.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/little-lemon/src/components/Main.js" beforeDir="false" afterPath="$PROJECT_DIR$/little-lemon/src/components/Main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/little-lemon/src/components/Nav.css" beforeDir="false" afterPath="$PROJECT_DIR$/little-lemon/src/components/Nav.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/little-lemon/src/components/Nav.js" beforeDir="false" afterPath="$PROJECT_DIR$/little-lemon/src/components/Nav.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,7 +118,7 @@
       <updated>1682468431560</updated>
       <workItem from="1682468433919" duration="129000" />
       <workItem from="1682468854839" duration="5912000" />
-      <workItem from="1682523382261" duration="17516000" />
+      <workItem from="1682523382261" duration="28815000" />
     </task>
     <servers />
   </component>

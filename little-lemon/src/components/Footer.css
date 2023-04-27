@@ -8,7 +8,7 @@ footer {
     font-size: 14px;
     font-weight: 300;
     width: 100%;
-    gap: 40px;
+    gap: 100px;
 }
 @media (max-width: 768px) {
     footer {

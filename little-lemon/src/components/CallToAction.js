@@ -1,14 +1,15 @@
 import homepic from "./assets/homepage.png";
 import React from "react";
-import './HomePage.css';
+import './CallToAction.css';
 
 function CallToAction() {
     return (
-        <section className={"homepage"}>
+        <div id={"CallToAction"}>
+        <section className={"call-to-action"}>
             <section className={"text"}>
                 <h1>Little Lemon</h1>
                 <h3>Chicago</h3>
-                <p className={"homepage-text"}>Little Lemon is a family owned, traditional
+                <p className={"call-to-action-text"}>Little Lemon is a family owned, traditional
                     Italian restaurant that provides a classic
                     Italian dining atmosphere with a modern
                     twist.</p>
@@ -18,6 +19,7 @@ function CallToAction() {
                 <img className={"image"} src={homepic} alt={"homepage"}/>
             </section>
         </section>
+        </div>
     );
 }
 export default CallToAction;
