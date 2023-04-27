@@ -1,8 +1,8 @@
-import React, { useState, useEffect } from 'react';
-import { fetchAPI, submitAPI } from '../api.js';
+import React, {useEffect, useState} from 'react';
+import {fetchAPI} from '../api.js';
 import './styles/BookingForm.css';
 
-function BookingForm({ formData, onFormChange }) {
+function BookingForm({ formData, onFormChange, submitForm }) {
     const today = new Date();
     const yyyy = today.getFullYear();
     let mm = today.getMonth() + 1; // Months start at 0!
@@ -11,36 +11,24 @@ function BookingForm({ formData, onFormChange }) {
     if (dd < 10) dd = '0' + dd;
     if (mm < 10) mm = '0' + mm;
 
-    const formattedToday = yyyy + '/' + mm + '/' + dd;
-    formData.date = formattedToday;
+    formData.date = yyyy + '/' + mm + '/' + dd;
     const [availableTimes, setAvailableTimes] = useState([]);
 
 
     const updateTimes = async (selectedDate) => {
-        const times = await fetchAPI(selectedDate);
+        const times = fetchAPI(selectedDate);
         setAvailableTimes(times);
     };
 
     useEffect(() => {
         updateTimes(formData.date).then(r => console.log(r));
-    }, []);
+    }, [formData.date]);
 
-    const handleSubmit = async (event) => {
+    const handleSubmit = (event) => {
         event.preventDefault();
-        console.log('Form submitted:', formData);
-        const success = submitAPI({
-            ...formData,
-            date: new Date(`${formData.date}T${formData.time}`),
-        });
-        if (success) {
-            console.log('Booking submitted successfully');
-
-            // Handle successful booking submission
-        } else {
-            console.error('Booking submission failed');
-            // Handle failed booking submission
-        }
+        submitForm(formData);
     };
+
 
     const handleChange = (event) => {
         const target = event.target;
@@ -54,7 +42,7 @@ function BookingForm({ formData, onFormChange }) {
 
         if (event.target.id === 'res-date') {
             const selectedDate = new Date(event.target.value);
-            updateTimes(selectedDate);
+            updateTimes(selectedDate).then(r => console.log(r));
         }
     };
 

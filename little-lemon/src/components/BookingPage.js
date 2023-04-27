@@ -2,7 +2,7 @@ import React from 'react';
 import BookingForm from './BookingForm';
 import './styles/BookingPage.css';
 
-function BookingPage({ formData, onFormChange, availableTimes, dispatchAvailableTimes }) {
+function BookingPage({ formData, onFormChange, availableTimes, dispatchAvailableTimes, submitForm }) {
     return (
         <div id={"BookingPage"}>
             <section className={"reservations"}>
@@ -12,6 +12,7 @@ function BookingPage({ formData, onFormChange, availableTimes, dispatchAvailable
                     onFormChange={onFormChange}
                     availableTimes={availableTimes}
                     dispatchAvailableTimes={dispatchAvailableTimes}
+                    submitForm={submitForm}
                 />
             </section>
         </div>

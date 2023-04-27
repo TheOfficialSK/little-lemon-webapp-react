@@ -19,7 +19,7 @@ function Nav(props) {
 
                     if (props.section === "top-bar") {
                         return (
-                            <li className={"nav-item-top"}>
+                            <li key={Math.random().toString()} className={"nav-item-top"}>
                                 <a href={`/#${item.anchor}`}
                                    onClick={(event) => handleClick(event, item.anchor)}
                                    key={item.anchor}
@@ -29,7 +29,7 @@ function Nav(props) {
                         )
                     } else {
                         return (
-                            <li className={"nav-item-bottom"}>
+                            <li key={Math.random().toString()} className={"nav-item-bottom"}>
                                 <a href={item.href}
                                    onClick={(event) => handleClick(event, item.anchor)}
                                    key={item.anchor}

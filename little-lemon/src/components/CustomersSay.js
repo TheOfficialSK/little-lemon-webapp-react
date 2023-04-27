@@ -13,7 +13,7 @@ import star from './assets/star.png';
 function Stars(props) {
     const stars = [];
     for (let i = 0; i < props.rating; i++) {
-        stars.push(<img className={"star"} src={star} alt={"star"}/>);
+        stars.push(<img key={Math.random().toString()} className={"star"} src={star} alt={"star"}/>);
     }
     return (
         stars
