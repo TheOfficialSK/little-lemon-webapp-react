@@ -53,6 +53,21 @@ function BookingForm({ formData, onFormChange, submitForm }) {
         });
     };
 
+    const [isFormValid, setIsFormValid] = useState(false);
+
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+    const validateForm = () => {
+        const hasDate = !!formData.date;
+        const hasTime = !!formData.time;
+        const hasGuests = formData.guests > 0;
+
+        setIsFormValid(hasDate && hasTime && hasGuests);
+    };
+
+    useEffect(() => {
+        validateForm();
+    }, [formData, validateForm]);
+
     return (
         <form onSubmit={handleSubmit} style={{ gap: '20px' }}>
             <label htmlFor="res-date">Choose date</label>
@@ -61,6 +76,7 @@ function BookingForm({ formData, onFormChange, submitForm }) {
                 id="res-date"
                 defaultValue={formData.date}
                 onChange={handleChange}
+                min={yyyy + '-' + mm + '-' + dd}
             />
 
             <label>Choose time</label>
@@ -105,7 +121,11 @@ function BookingForm({ formData, onFormChange, submitForm }) {
                 <option value="Engagement">Engagement</option>
                 <option value="Anniversary">Anniversary</option>
             </select>
-            <input type="submit" value="Make Your reservation" />
+            <input
+                type="submit"
+                value="Make Your reservation"
+                disabled={!isFormValid}
+            />
         </form>
     );
 }
