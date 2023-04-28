@@ -1,13 +1,11 @@
 import React, { useState, useReducer } from 'react';
-import { Route, Routes, Outlet } from 'react-router-dom';
 import CallToAction from "./CallToAction";
 import CustomersSay from "./CustomersSay";
-import Homepage from "./Homepage";
+import Homepage from "./Specials";
 import Chicago from "./Chicago";
 import BookingPage from "./BookingPage";
 import { fetchAPI, submitAPI } from '../api.js';
 import ConfirmedBooking from "./ConfirmedBooking";
-import { useNavigate } from 'react-router-dom';
 
 function Main() {
     const [formData, setFormData] = useState({
@@ -32,38 +30,34 @@ function Main() {
         setFormData(newFormData);
     };
 
-    const navigate = useNavigate();
+    const [bookingConfirmed, setBookingConfirmed] = useState(false);
 
     const submitForm = async (formData) => {
         const success = await submitAPI(formData);
 
         if (success) {
-            navigate('/booking-confirmed');
+            setBookingConfirmed(true);
         }
     };
 
     return (
         <main>
             <CallToAction />
-            <Routes>
-                <Route path="/" element={<Homepage />} />
-                <Route path="/home" element={<Homepage />} />
-                <Route path="/BookingPage" element={
-                    <BookingPage
-                        formData={formData}
-                        onFormChange={onFormChange}
-                        availableTimes={availableTimes}
-                        dispatchAvailableTimes={dispatchAvailableTimes}
-                        submitForm={submitForm}
-                    />
-                } />
-                <Route path="/booking-confirmed" element={<ConfirmedBooking />} />
-                <Route path="*" element={<Outlet />} />
-            </Routes>
+            <Homepage />
+            {!bookingConfirmed ? (
+                <BookingPage
+                    formData={formData}
+                    onFormChange={onFormChange}
+                    availableTimes={availableTimes}
+                    dispatchAvailableTimes={dispatchAvailableTimes}
+                    submitForm={submitForm}
+                />
+            ) : (
+                <ConfirmedBooking formData={formData} />
+            )}
             <CustomersSay />
             <Chicago />
         </main>
     );
 }
-
 export default Main;

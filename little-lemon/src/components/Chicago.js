@@ -4,7 +4,7 @@ import mario from "./assets/mario.png";
 import founder2 from "./assets/founder2.png";
 function Chicago() {
     return (
-        <div id={"Chicago"}>
+        <div id="Chicago">
         <section className={"about"}>
             <section className={"text"}>
                 <h1 className={"abouth1"}>Little Lemon</h1>
