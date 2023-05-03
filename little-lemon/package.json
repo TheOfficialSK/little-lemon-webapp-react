@@ -2,6 +2,7 @@
   "name": "little-lemon",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://github.com/TheOfficialSK/little-lemon-website",
   "dependencies": {
     "@chakra-ui/react": "^2.6.0",
     "@testing-library/jest-dom": "^5.16.5",
@@ -38,5 +39,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^5.0.0"
   }
 }
