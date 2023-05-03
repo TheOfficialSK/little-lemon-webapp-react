@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/little-lemon-website/static/css/main.85ff2fa1.css",
+    "main.js": "/little-lemon-website/static/js/main.aaf223e7.js",
+    "static/media/homepage.png": "/little-lemon-website/static/media/homepage.f09bb37b3225a0b32324.png",
+    "static/media/mario.png": "/little-lemon-website/static/media/mario.da93f586bd2af6aa1671.png",
+    "static/media/founder2.png": "/little-lemon-website/static/media/founder2.d849d96384fa8fc2095b.png",
+    "static/media/greek-salad.png": "/little-lemon-website/static/media/greek-salad.5ea39fd0ce0ff8655524.png",
+    "static/media/bruschetta.png": "/little-lemon-website/static/media/bruschetta.d725984212d42f5f7a38.png",
+    "static/media/lemon-dessert.png": "/little-lemon-website/static/media/lemon-dessert.e6c48e1ce24124c9ba20.png",
+    "static/media/natalies-image.png": "/little-lemon-website/static/media/natalies-image.efa34a6522f0a6fa5989.png",
+    "static/media/edwards-image.png": "/little-lemon-website/static/media/edwards-image.9866890cd0bb5129ea4d.png",
+    "static/media/roberts-image.png": "/little-lemon-website/static/media/roberts-image.971e4c2b9848e61dfacd.png",
+    "static/media/brads-image.png": "/little-lemon-website/static/media/brads-image.a4b81afea4ccf840411b.png",
+    "static/media/Logo.svg": "/little-lemon-website/static/media/Logo.6c132dfefa69396bba43f72aa595e62f.svg",
+    "static/media/edward.png": "/little-lemon-website/static/media/edward.7248ffab611397cb3790.png",
+    "static/media/brad.png": "/little-lemon-website/static/media/brad.54118dbf80db70f7f809.png",
+    "static/media/natalie.png": "/little-lemon-website/static/media/natalie.87d1ce4b75a5851dfb2c.png",
+    "static/media/robert.png": "/little-lemon-website/static/media/robert.2121f1b279db9aebbad4.png",
+    "index.html": "/little-lemon-website/index.html",
+    "main.85ff2fa1.css.map": "/little-lemon-website/static/css/main.85ff2fa1.css.map",
+    "main.aaf223e7.js.map": "/little-lemon-website/static/js/main.aaf223e7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.85ff2fa1.css",
+    "static/js/main.aaf223e7.js"
+  ]
+}
