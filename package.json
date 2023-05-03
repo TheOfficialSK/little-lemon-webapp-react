@@ -1,8 +1,8 @@
 {
+  "homepage": "http://TheOfficialSK.github.io/little-lemon-website",
   "name": "little-lemon",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://TheOfficialSK.github.io/little-lemon-website",
   "dependencies": {
     "@chakra-ui/react": "^2.6.0",
     "@testing-library/jest-dom": "^5.16.5",
