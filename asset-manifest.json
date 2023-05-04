@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/little-lemon-webapp-react/static/css/main.0508dfba.css",
+    "main.css": "/little-lemon-webapp-react/static/css/main.ebca91ae.css",
     "main.js": "/little-lemon-webapp-react/static/js/main.c5f5e75f.js",
     "static/media/homepage.png": "/little-lemon-webapp-react/static/media/homepage.f09bb37b3225a0b32324.png",
     "static/media/mario.png": "/little-lemon-webapp-react/static/media/mario.da93f586bd2af6aa1671.png",
@@ -18,11 +18,11 @@
     "static/media/natalie.png": "/little-lemon-webapp-react/static/media/natalie.87d1ce4b75a5851dfb2c.png",
     "static/media/robert.png": "/little-lemon-webapp-react/static/media/robert.2121f1b279db9aebbad4.png",
     "index.html": "/little-lemon-webapp-react/index.html",
-    "main.0508dfba.css.map": "/little-lemon-webapp-react/static/css/main.0508dfba.css.map",
+    "main.ebca91ae.css.map": "/little-lemon-webapp-react/static/css/main.ebca91ae.css.map",
     "main.c5f5e75f.js.map": "/little-lemon-webapp-react/static/js/main.c5f5e75f.js.map"
   },
   "entrypoints": [
-    "static/css/main.0508dfba.css",
+    "static/css/main.ebca91ae.css",
     "static/js/main.c5f5e75f.js"
   ]
 }
