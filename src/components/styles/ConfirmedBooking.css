@@ -16,6 +16,7 @@
 }
 @media (max-width: 768px) {
     #ConfirmedBooking {
+        display: flex;
         flex-direction: column;
         padding-top: 180px;
         padding-bottom: 280px;
@@ -24,7 +25,12 @@
 
     }
 
-    .text {
+    .confirm-message {
         padding-top: 20px;
+        width: 100%;
+    }
+    .confirmation {
+        font-size: 50px;
+        width: 100%;
     }
 }

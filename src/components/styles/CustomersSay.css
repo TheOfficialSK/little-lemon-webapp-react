@@ -78,6 +78,11 @@
     margin: 0;
 }
 @media (max-width: 768px) {
+    .customers-say {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
     .reviews {
         flex-direction: column;
         align-items: center;
@@ -89,6 +94,9 @@
     .testimonials {
         text-align: center;
         width: 100%;
+        font-size: 50px;
+        margin-top: 100px;
+        margin-bottom: 50px;
     }
 
 }

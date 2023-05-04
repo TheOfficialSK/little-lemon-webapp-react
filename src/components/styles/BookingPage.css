@@ -10,9 +10,14 @@
     padding: 0 0 200px;
 }
 @media (max-width: 768px) {
+    #BookingPage {
+        width: 100%;
+    }
     .form-header {
         text-align: center;
         width: 100%;
+        font-size: 50px;
+        padding-bottom: 30px;
 
     }
 }

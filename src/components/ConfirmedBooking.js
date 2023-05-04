@@ -4,10 +4,10 @@ function ConfirmedBooking({ formData }) {
     return (
         <div id={"ConfirmedBooking"}>
             <section className={"reservation"}>
-                <h1>Reservation Confirmed</h1>
+                <h1 className={"confirmation"}>Reservation Confirmed</h1>
 
-                <p>We'll see you soon! We got your reservation for {formData.date} at {formData.time} for {formData.guests} guests</p>
-                <p>Please add the reservation to your calendar!</p>
+                <p className={"Confirm-message"}>We'll see you soon! We got your reservation for {formData.date} at {formData.time} for {formData.guests} guests</p>
+                <p className={"confirm-message"}>Please add the reservation to your calendar!</p>
             </section>
         </div>
     );

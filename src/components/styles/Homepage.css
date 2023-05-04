@@ -93,6 +93,7 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+        margin-top: 50px;
     }
     .specials-header {
         display: flex;
@@ -106,8 +107,5 @@
     .card-text {
         padding-left: 5px;
         width: 250px;
-    }
-    .special-item {
-
     }
 }

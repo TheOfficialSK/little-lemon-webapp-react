@@ -57,20 +57,20 @@ p.aboutp {
         flex-direction: column;
     }
     .founders {
+        display: flex;
         flex-direction: column;
         justify-content: center;
         align-content: center;
+        align-items: center;
 
     }
     .image-one {
         height: 300px;
-        top: 0px;
+        position: unset;
     }
     .image-two {
-        height: 300px;
-        left: 140px;
-        top: -50px;
-        overflow: hidden;
+        height: 308px;
+        position: unset;
     }
     #Chicago {
         padding-top: 50px;
