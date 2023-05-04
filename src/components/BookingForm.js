@@ -80,7 +80,7 @@ function BookingForm({ formData, onFormChange, submitForm }) {
             />
 
             <label>Choose time</label>
-            <div style={{ display: 'flex', justifyContent: 'space-between' }}>
+            <div  className={"time-selection"} style={{ display: 'flex', justifyContent: 'space-between' }}>
                 {availableTimes.map((availableTime) => (
                     <button
                         className="time"

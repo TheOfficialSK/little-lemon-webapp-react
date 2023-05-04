@@ -9,3 +9,9 @@
     background-color: var(--primary-green);
     padding: 0 0 200px;
 }
+@media (max-width: 768px) {
+    .form-header {
+        text-align: center;
+
+    }
+}

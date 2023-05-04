@@ -71,3 +71,19 @@ select {
     margin-bottom: 20px;
     background-color: #EDEFEE;
 }
+@media (max-width: 768px) {
+    form {
+        display: flex;
+        flex-direction: column;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    .time-selection {
+        display: flex;
+        flex-direction: row;
+        flex-flow: wrap;
+        align-items: center;
+        width: 300px;
+    }
+
+}

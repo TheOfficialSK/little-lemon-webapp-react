@@ -14,3 +14,16 @@
     padding-top: 50px;
     color: var(--white);
 }
+@media (max-width: 768px) {
+    #ConfirmedBooking {
+        flex-direction: column;
+        padding-top: 180px;
+        padding-bottom: 280px;
+        text-align: center;
+
+    }
+
+    .text {
+        padding-top: 20px;
+    }
+}

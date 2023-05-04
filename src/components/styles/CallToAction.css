@@ -5,17 +5,6 @@
     justify-content: center;
     padding: 20px;
 }
-@media (max-width: 768px) {
-    .call-to-action {
-        flex-direction: column;
-    }
-    .text {
-        padding-top: 20px;
-    }
-    .image {
-        height: 200px;
-    }
-}
 .text {
     padding-top: 0px;
 }
@@ -78,4 +67,37 @@ p.call-to-action-text {
 .reserve-a-table:hover {
     background-color: var(--accent-salmon);
     cursor: pointer;
+}
+@media (max-width: 768px) {
+    .call-to-action {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    p.call-to-action-text {
+        padding-top: 20px;
+        padding-left: 1rem;
+    }
+    h1 {
+        align-self: center;
+        padding-left: 1rem;
+    }
+    h2 {
+        align-self: center;
+        padding-left: 1rem;
+    }
+    h3 {
+        align-self: center;
+        padding-left: 1rem;
+    }
+    .text {
+        padding-top: 20px;
+
+    }
+    .reserve-a-table {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: 170px;
+    }
+
 }

@@ -52,3 +52,27 @@ p.aboutp {
     left: -130px;
     top: -100px;
 }
+@media (max-width: 768px) {
+    .about {
+        flex-direction: column;
+    }
+    .founders {
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+
+    }
+    .image-one {
+        height: 300px;
+        top: 0px;
+    }
+    .image-two {
+        height: 300px;
+        left: 140px;
+        top: -50px;
+    }
+    #Chicago {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+}

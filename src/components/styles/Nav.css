@@ -23,9 +23,11 @@
     .top-bar {
         height: unset;
         gap: 10px;
+        display: none;
     }
 .nav-item-top {
         padding: 0;
+
     }
 }
 .nav-item-bottom {

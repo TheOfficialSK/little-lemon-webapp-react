@@ -12,10 +12,11 @@ footer {
 }
 @media (max-width: 768px) {
     footer {
-
         background-color: var(--accent-dark-grey);
         flex-direction: column;
         gap: unset;
-
+    }
+    .header-logo {
+        align-self: center;
     }
 }

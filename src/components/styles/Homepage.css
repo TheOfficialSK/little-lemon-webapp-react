@@ -85,3 +85,22 @@
     color: #495e57;
     cursor: pointer;
 }
+@media (max-width: 768px) {
+    .highlighted-items {
+        flex-direction: column;
+    }
+    .specials {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .specials-header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+    .order-online {
+        padding: 20px;
+    }
+}

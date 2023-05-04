@@ -77,3 +77,13 @@
     gap: 0;
     margin: 0;
 }
+@media (max-width: 768px) {
+    .reviews {
+        flex-direction: column;
+        align-items: center;
+
+    }
+    .review-block {
+        margin-bottom: 50px;
+    }
+}

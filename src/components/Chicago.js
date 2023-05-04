@@ -16,7 +16,7 @@ function Chicago() {
                     approach have helped make Little Lemon a beloved destination for Italian food lovers in
                     Chicago.</p>
             </section>
-            <section>
+            <section className={"founders"}>
                 <img className={"image-one"} src={mario} alt={"homepage"}/>
                 <img className={"image-two"} src={founder2} alt={"homepage"}/>
             </section>
