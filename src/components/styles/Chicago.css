@@ -70,9 +70,13 @@ p.aboutp {
         height: 300px;
         left: 140px;
         top: -50px;
+        overflow: hidden;
     }
     #Chicago {
         padding-top: 50px;
         padding-bottom: 50px;
+    }
+    p.aboutp {
+        width: 100%;
     }
 }

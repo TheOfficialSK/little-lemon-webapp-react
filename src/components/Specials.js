@@ -19,7 +19,7 @@ return (
                     <p className={"item"}>Greek Salad</p>
                     <p className={"price"}>$12.99</p>
                 </div>
-                <p className={"text"}>
+                <p className={"card-text"}>
                     A refreshing medley of crisp cucumbers, juicy tomatoes,
                     Kalamata olives, and tangy feta cheese, all tossed in
                     a zesty Greek dressing. This vibrant salad is the perfect
@@ -39,7 +39,7 @@ return (
                     <p className={"item"}>Bruschetta</p>
                     <p className={"price"}>$13.99</p>
                 </div>
-                <p className={"text"}>
+                <p className={"card-text"}>
                     A classic Italian starter featuring toasted slices of crusty bread
                     topped with a delightful mix of fresh tomatoes, basil, garlic, and
                     a drizzle of olive oil. Served with a sprinkle of sea salt and a
@@ -56,7 +56,7 @@ return (
                     <p className={"item"}>Lemon Dessert</p>
                     <p className={"price"}>$7.99</p>
                 </div>
-                <p className={"text"}>
+                <p className={"card-text"}>
                     These delectable dessert bars combine a buttery shortbread crust with
                     a tangy and sweet lemon filling. Dusted with a light layer of powdered
                     sugar, these zesty treats provide the perfect balance of tartness and
